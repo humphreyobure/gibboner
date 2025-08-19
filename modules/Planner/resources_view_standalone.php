@@ -34,7 +34,7 @@ echo "<link rel='stylesheet' type='text/css' href='".$session->get('absoluteURL'
 
 		</div>
 	</div>
-	<div id="content-wrap">
+]	<div id="content-wrap">
 		<div id="content">
 			<?php
             if (isActionAccessible($guid, $connection2, '/modules/Planner/resources_view_full.php') == false) {
@@ -77,7 +77,7 @@ echo "<link rel='stylesheet' type='text/css' href='".$session->get('absoluteURL'
 		<div id="sidebar">
 		</div>
 	</div>
-	<div id="footer">
+	<!-- <div id="footer">
 		<a href="https://gibbonedu.org">Gibbon</a> v<?php echo $version ?> | &#169; 2011, <a href="http://rossparker.org">Ross Parker</a> at <a href="http://www.ichk.edu.hk">International College Hong Kong</a> | Created under the <a href="https://www.gnu.org/licenses/gpl.html">GNU General Public License</a>
-	</div>
+	</div> -->
 </div>
